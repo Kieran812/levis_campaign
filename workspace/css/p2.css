@@ -25,7 +25,7 @@
 		#yun {
 			width: 100%;
 			position: absolute;
-			bottom: 4.3rem;
+			bottom: 6.3rem;
 			z-index: 99;
 			/* animation: yun 1s 1s 1 forwards; */
 			/* opacity: 0; */
@@ -44,7 +44,7 @@
 		
 		#top {
 			position: relative;
-			top: 5%;
+			top: 0.1rem;
 			opacity: .8;
 			font-family: cursive;
 		}
@@ -114,9 +114,9 @@
 			color: rgba(255, 255, 255, 0.8);
 			animation: top3 1s forwards;
 			text-align: center; */
-			font-size: 0.85rem;
+			font-size: 0.75rem;
 			font-weight: bold;
-			MARGIN-TOP: 2.5rem;
+			margin-top: 0.5rem;
 			text-align: center;
 		}
 		
@@ -133,13 +133,13 @@
 			width: 60%;
 			text-align: center;
 			background-color: black;
-			border-radius: 20%;
+			border-radius: 3rem;
 			margin: 0 0 0 0;
 			font-size: 0.32rem;
 			animation: sz 1s 2s 1 forwards;
 			opacity: 0;
 			font-family: cursive;
-			margin-top: 1.5rem;
+			margin-top: -1.5rem;
 		}
 		
 		@keyframes sz {

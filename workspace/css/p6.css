@@ -23,7 +23,7 @@ body {
 }
 .all6 p{
 	font-size: 0.37rem;
-    font-family: cursive;
+	font-style: italic;
     position: absolute;
     top: 0.15rem;
     width: 4rem;
@@ -54,7 +54,6 @@ p {
     font-family: cursive;
     font-weight: bold;
     text-align: center;
-    font-style: italic;
 }
 #v_wrap{
 	width: 100%;
