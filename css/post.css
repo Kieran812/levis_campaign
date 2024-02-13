@@ -1,0 +1,119 @@
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+    font-family: cursive;
+}
+
+/* 海报页 */
+.all1 p{
+    margin: 0%;
+}
+.all1 {
+    /* background: url(../img/bg.jpg) no-repeat;
+    background-size: 100% 100%; */
+    background-color: #e64a28;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: column;
+}
+#test p{
+    font-size: 0.45rem;
+    color: aliceblue;
+    font-weight: bold;
+}
+#join{
+    color: aliceblue;
+    font-size: 0.7rem;
+    font-style:italic;
+    position: absolute;
+    bottom:0.5rem;
+    left: 0.6rem;
+}
+
+#bg_logo {
+    width: 1.08rem;
+    position: absolute;
+    bottom: 1.5rem;
+    left: 0.8rem;
+    border-radius: 50%;
+    z-index: 100;
+}
+#bg_colthes{
+    width: 100%;
+    position: absolute;
+    top: 4rem;
+}
+#women{
+    width: 100%;
+    position: absolute;
+    top: 1.35rem;
+    left: 0.4rem;
+}
+#women img{
+    width: 30%;
+    float:left;
+}
+#qrcode{
+    width: 1.9rem;
+    position: absolute;
+    bottom: 0.65rem;
+    right: 0.4rem;
+}
+@keyframes rotation{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+#test {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 0.3rem;
+    text-align: center;
+    position: relative;
+    top: -35%;
+    font-style: italic;
+}
+#hand{
+    rotate: 90deg;
+    width: 0.8rem;
+    position: absolute;
+    left: 3.7rem;
+    bottom: 0.65rem;
+    /* animation:fingerHandle 1s ease infinite both; */
+}
+
+.circle{
+    position:absolute;left:50%;top:50%;margin:-70px 0 0 -46px;
+    background: url("./circle.png") center center no-repeat;
+    width:62px;
+    height:62px;
+    animation:circleHide 1s ease infinite both
+}
+
+@keyframes fingerHandle{
+    0%{transform:none}
+    70%{transform:scale3d(.8,.8,.8)}
+    100%{transform:none}
+}
+@keyframes circleHide{
+    0%{opacity:0;transform:scale3d(0,0,0)}
+    70%{opacity:1;transform:scale3d(1.2,1.2,1.2)}
+    100%{opacity:0;transform:scale3d(0,0,0)}
+}
+
+
+
